@@ -5,7 +5,7 @@ A := Main Application Object
 C := Main Window Creation /QtSidePanel_Grok.pyw || I | A | C | Show Window | Start Event Loop 
 -> A || $ (QApplication) App 
 -> C || $ (QMainWindow) MainWindow | Set title "Side Panel App" | Set Black Background | Set White Text | $ (IconListView) list_view || list_view occupy the client area { The Height of Application must be 65 percent of screen height } 
-IconListView : QListView {}? || ... | Right Mouse Button Handle () | Keydown Handle () 
+-> IconListView : QListView {}? || ... | Right Mouse Button Handle () | Keydown Handle () 
 -> IconListView : QListView {}? || ... | Right Mouse Button Handle () || Open a Dialog to Search for any files or applications | % Selected a File or Application with Dialog || Add an Icon Image to this list view | Adjust the Height to the Listview making more compact 
 -> IconListView : QListView {}? || ... | Right Mouse Button Handle () | Keydown Handle () || % escape pressed || % Confirmation Dialog || exit properly the program 
 -> IconListView : QListView {}? || ... | Right Mouse Button Handle () | Keydown Handle () || % escape pressed | % delete pressed || remove selected itens from listview 
