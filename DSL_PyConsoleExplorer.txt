@@ -1,4 +1,4 @@
-[ Console Explorer ]{ Python, Console Application, Set as a Python Executable, Put Try Except clauses predicting folder opening denial and when a Exception occurs set the variables with the previous values }
+[ Console Explorer ]{ Python, Console Application, Set as a Executable, Put Try Except clauses predicting folder opening denial and when a Exception occurs set the variables with the previous values }
 I := Imports
 G := Global Variables
 Iv := Initialize Variables
