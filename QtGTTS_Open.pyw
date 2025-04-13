@@ -1,4 +1,4 @@
-""" 
+""" DSL Logic generated with Open AI Chat GPT (see https://github.com/EYO-07/DSL )
 [ Text to Speech GUI ] { pyqt5, gTTS, Black Background, Yellow Text }
 I := Imports 
 G := Global Variables
